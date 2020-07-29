@@ -7,4 +7,4 @@ class Calc {
   }
 }
 
-export {Calc};
+export default Calc;
