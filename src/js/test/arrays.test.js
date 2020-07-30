@@ -94,7 +94,7 @@ describe('getVowels', () => {
   });
 });
 
-describe.only('rearrangeVowels', () => {
+describe('rearrangeVowels', () => {
   test( 'cottage => cettago', () => {
     expect(rearrangeVowels("cottage")).toEqual('cettago');
   });
