@@ -1,4 +1,4 @@
-import Calc from '../Calc.js';
+import Calc from '../calc.js';
 
 let myCalc = new Calc();
 describe('Calculator', () => {
