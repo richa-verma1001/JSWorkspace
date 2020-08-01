@@ -8,7 +8,7 @@ import './js/problems/calc.js';
                                // Any JS that is not compiled via index.js is currently
                                // not linted
 //import './js/warmup/sockMerchant/main.js';
-import './js/arrays/newYearChaos/main.js';
+//import './js/arrays/newYearChaos/main.js';
 
 
 // Log message to console
