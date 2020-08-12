@@ -159,4 +159,30 @@ console.log(arr2);
 console.log("array 1: length=" + arr1.length + " last=" + arr1.slice(-1));
 console.log("array 2: length=" + arr2.length + " last=" + arr2.slice(-1));
 
+
+let factorial = function(x) {
+  if(x == 0 || x == 1)
+    return 1;
+  else {
+    return x * factorial(x-1);
+  }
+}
+console.log(`Factorial: ${factorial(0)}`);
+console.log(`Factorial: ${factorial(1)}`);
+console.log(`Factorial: ${factorial(4)}`);
+
+let sum1 = function(x) {
+  if(x == 0)
+    return 0;
+  if(x == 1)
+    return 1;
+  else {
+    return x + sum1(x-1);
+  }
+}
+console.log(`Sum: ${sum1(0)}`);
+console.log(`Sum: ${sum1(1)}`);
+console.log(`Sum: ${sum1(4)}`);
+console.log(`Sum: ${sum1(5)}`);
+
 // Write exercise to compare objects

@@ -33,7 +33,7 @@ Webpack, Lint, Jest. Travis integration was added.
 - Added support for ES6 globals (e.g. Set) in eslintrc.js file. Without this, use of global objects like Set will thro a lint error. [Docs reference here](https://eslint.org/docs/user-guide/configuring#specifying-parser-options)
 
 
-## Run application
+### Run application
 
     npm run buildDev
     npm start
@@ -42,3 +42,7 @@ Webpack, Lint, Jest. Travis integration was added.
     npm start
 
   Application hosted at http://localhost:8080/index.html
+
+### Primary Content
+
+View JS workspace exercises at src/js/
