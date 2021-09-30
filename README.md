@@ -25,7 +25,7 @@ Webpack, Lint, Jest. Travis integration was added.
     npm test                // runs test
     npm run coverage        // generates a coverage report
     npx eslint src/**       // lint files
-    node src/js/practice.js   // run single JS files
+    node src/js/problems/practice.js   // run single JS files
 
 ### Boilerplate Extensions
 - Travis integration
