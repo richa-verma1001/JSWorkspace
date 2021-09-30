@@ -10,7 +10,7 @@ Webpack, Lint, Jest. Travis integration was added.
 
 ## Installation & Usage
 
-    git clone https://github.com/richa-verma1001/JSWorkspace.git
+    git clone https://github.com/richa-verma1001/JSWorkspace.gitt
     cd JSBootCamp
     npm install
 
