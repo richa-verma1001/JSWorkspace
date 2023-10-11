@@ -24,13 +24,14 @@ Webpack, Lint, Jest. Travis integration was added.
 
     npm test                // runs test
     npm run coverage        // generates a coverage report
+    npm test 'testname'     // seems to be running all tests that match keyword in filepath or filename, not test name
     npx eslint src/**       // lint files
     node src/js/problems/practice.js   // run single JS files
 
 ### Boilerplate Extensions
 - Travis integration
 - Unit test coverage
-- Added support for ES6 globals (e.g. Set) in eslintrc.js file. Without this, use of global objects like Set will thro a lint error. [Docs reference here](https://eslint.org/docs/user-guide/configuring#specifying-parser-options)
+- Added support for ES6 globals (e.g. Set) in eslintrc.js file. Without this, use of global objects like Set will throw a lint error. [Docs reference here](https://eslint.org/docs/user-guide/configuring#specifying-parser-options)
 
 
 ### Run application

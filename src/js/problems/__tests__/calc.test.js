@@ -1,3 +1,5 @@
+// Example of a class import usage
+
 import Calc from '../calc.js';
 
 let myCalc = new Calc();

@@ -1,3 +1,5 @@
+// Using and importing classes in javascript
+
 class Calc {
   add(a, b) {
     return a + b;

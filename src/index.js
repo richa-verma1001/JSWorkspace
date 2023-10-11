@@ -1,8 +1,10 @@
 import logMessage from './js/logger'
 import './css/style.css'
-import './js/problems/arrays.js';
-import './js/problems/async.js';
-import './js/problems/calc.js';
+//import './js/problems/CashRegister.js';
+import './js/problems/practiceFeb2022.js';
+//import './js/problems/arrayBasic.js';
+//import './js/problems/async.js';
+//import './js/problems/calc.js';
 //import './js/practice.js';   // Include this file to debug file in browser.
                                // practice.js file will throw a lot of lint errors
                                // Any JS that is not compiled via index.js is currently

@@ -96,7 +96,7 @@ export const rearrangeVowels = (str) => {
   return modified.join('');
 }
 
-//console.log(`Printing ${filterValues([1,2,3,4,5,6], 2,3)}`);
+console.log(`Printing ${filterValues([1,2,3,4,5,6], 2,3)}`);
 //isObjectSame({a:1, b:2, c:3},{a:1, b:2, c:4});
 //getAllCombinations([1,2,3,4]);
 //isPalindrome('A but tuba');
